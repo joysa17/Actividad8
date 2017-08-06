@@ -1,0 +1,22 @@
+
+
+ 	.img-responsive{
+ 		max-width: 100%;
+ 		display: block;
+ 		margin: auto;
+
+ 	}
+ 	p, li{
+ 		font-family: 'Source Sans Pro', sans-serif;
+ 		font-size: 12px;
+ 	}
+ 	h2{
+ 		color: red;
+ 	}
+ 	.row{
+ 		display: inline-flex;
+ 	}
+ 	.logofundación{
+ 		height: 200px;
+ 		width: 50%;
+ 	}
