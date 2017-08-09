@@ -1,7 +1,7 @@
 
 	header{
 	        	background-image: url("#");
-				padding: 50px 30px 50px 30px; 
+				
 	        }
  	.img-responsive{
  		max-width: 100%;
@@ -29,6 +29,4 @@
  		padding-top: 30px;
  	}
  	
- 	h2{
- 		color: red;
- 	}
+ 	
