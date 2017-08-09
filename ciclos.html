@@ -18,7 +18,7 @@
 <body>
 <header>
 <!--menú -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -28,12 +28,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Inicio</a>
+      <a class="navbar-brand" href="#"><img src="img/logo3.png" class="imglogo" "></a>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
         <li><a href="noticias.html">Noticias <span class="sr-only">(current)</span></a></li>
         <li><a href="Nosotros.html">Nosotros</a></li>
         <li class="dropdown">
@@ -49,12 +49,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 </header>
-	<div>
-		<center>
-			<img src="img/logo2.jpg" class="img-responsive">
-		</center>
-	</div>
-
+	
 <!-- contenido -->
 
 <div class="contenedor">
@@ -177,32 +172,51 @@
 	<!-- Formulario-->
 		<form>
 			  <div class="form-group">
-			    <label for="Nombre">Nombre</label>
+			    <label for="Nombre">Nombre:</label>
 			    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
 			  </div>
 			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email</label>
+			    <label for="exampleInputEmail1">Email:</label>
 			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
 			  </div>
+			  <div>
+			  <label for="exampleInputEmail1">Asunto:</label><br>
+			  	<select class="form-control">
+				  <option>Consultas</option>
+				  <option>Felicitaciones</option>
+				  <option>Reclamos</option>
+				  <option>Hacerme socio</option>
+				</select>
+			  </div>
 			  <div class="form-group">
-			    <label for="exampleInputEmail1">Comentarios</label><br>
-			    <textarea rows="3" name="comentarios" placeholder="Escriba sus comentarios"></textarea>
+			    <label for="exampleInputEmail1">Comentarios:</label><br>
+			   <textarea class="form-control" rows="3" placeholder="Escriba sus Comentarios"></textarea>
 			  </div>
 			  <div class="checkbox">
 			  </div>
-			  <button type="submit" class="btn">Enviar</button>
+			  <button type="button" class="btn btn-danger">Enviar</button>
 		</form>
+		<!-- fin Formulario-->
 	</div>
+	<!--mapa-->
+	<div class="col-md-4">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13319.121377132813!2d-70.6038074!3d-33.4289706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b8a92ab14abf654!2sDesaf%C3%ADo+Latam!5e0!3m2!1ses-419!2scl!4v1502149484437" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<!--fin mapa-->
+
+	<!-- redes sociales-->
 	<div class="col-md-4">
 		<a href="http://www.facebook.com/AQUI_TU_PAGINA" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a>
 		<a href="http://twitter.com/Aspergerchile_F" target="_blank"><img src="https://lh6.googleusercontent.com/-vao9pzZoGtk/T6VYC4d1YMI/AAAAAAAAA0U/4rdP2chJido/s48/twitter48.png" width=48 height=48 alt="Síguenos en Twitter" /></a>
 
 		<a href="https://www.youtube.com/channel/UCv927I1W_spt4eVdrYUSlqw" target="_blank"><img alt="Siguenos en YouTube" src="https://lh6.googleusercontent.com/-Atgpy-x_OwI/T6mYkA18hYI/AAAAAAAAA1U/qksUJ5uBq3c/s48/youtube48.png" width=48 height=48  /></a>
+		<!-- fin redes sociales-->
+		<br>
+		<br>
+		<br>
+		<img src="img/inicio.jpg">
 	</div>
-	<div class="col-md-4">
-		<iframe width="600" height="450" frameborder="0" style="border:0"
-	      src="https://www.google.com/maps/embed/v1/view?zoom=17&center=-33.4288%2C-70.6032&key=AIzaSyAJ4f576Rn_gDSy131Zapjn7uWWlz3GpGk" allowfullscreen></iframe>
-	</div>
+	
 </footer>
 </body>
 </html>
