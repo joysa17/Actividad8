@@ -1,6 +1,7 @@
 
-	header{
+	.jumbotron{
 	        	background-image: url("#");
+
 				
 	        }
  	.img-responsive{
@@ -18,7 +19,8 @@
  	}
  	
  	.imglogo{
- 		height: 36px;
+ 		margin-top:0;
+ 		height: 35px;
  		width: 180px;
   	}
  	body{
